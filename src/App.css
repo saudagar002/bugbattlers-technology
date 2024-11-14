@@ -1,0 +1,50 @@
+.App {
+  text-align: center; /* Center text in the App */
+}
+
+.App-logo {
+  height: 10vmin; /* Adjusted to make the logo smaller */
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34; /* Background color for the header */
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 1cm;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 2.5em; /* Adjust the font size */
+  color: white; /* Text color */
+  background-color: #4caf50; /* Background color for the h1 */
+  padding: 20px; /* Space around the h1 text */
+  border: 2px solid #ccc; /* Border around the h1 */
+  display: inline-block; /* Allow padding and border to wrap around text */
+  border-radius: 8px; /* Rounded corners for the border */
+}

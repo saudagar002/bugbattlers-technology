@@ -1,0 +1,72 @@
+/* Seat Layout */
+.seat {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.single {
+  background-color: #add8e6; /* Light blue for single seat */
+}
+
+.double {
+  background-color: #98fb98; /* Light green for double seat */
+}
+
+.selected {
+  background-color: #ff6347; /* Orange for selected seat */
+}
+
+.seat-space {
+  width: 20px;
+  display: inline-block;
+}
+
+.seat-map {
+  margin-top: 20px;
+}
+
+/* Seat Type Selector */
+.seat-type-selector {
+  margin-bottom: 20px;
+}
+
+.seat-type-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+}
+
+.seat-type-button.active {
+  background-color: #4caf50; /* Highlight active seat type */
+  color: white;
+}
+
+.seat-info {
+  margin-top: 20px;
+}
+
+.seat-sample {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid #000;
+}
+
+.single-seat {
+  background-color: #add8e6;
+}
+
+.double-seat {
+  background-color: #98fb98;
+}
+
+.selected-seat {
+  background-color: #ff6347;
+}
